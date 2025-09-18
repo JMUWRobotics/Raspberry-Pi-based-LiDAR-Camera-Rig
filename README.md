@@ -69,23 +69,22 @@ Raspberry-Pi-based-LiDAR-Camera-Rig/
 │       ├── livox_ros2_driver                  # driver Livox Mid-70
 │       └── code_pkg                           # computation of rosbags
 │
-├── tools/        
-│   ├── all_sonsors.launch.py
-│   ├── correct_dataset.py
-│   ├── densify_depth.py
-│   ├── fuse_scans.py
-│   ├── generate_Fusion_Output.py
-│   ├── generate_output_from_rosbag.py
-│   └── show_ply.py
+├── tools/                                     # Python scripts for post-processing    
+│   ├── all_sonsors.launch.py                  # ordingre
+│   ├── correct_dataset.py                     #re
+│   ├── densify_depth.py                       #
+│   ├── fuse_scans.py                          #
+│   ├── generate_Fusion_Output.py              #
+│   ├── generate_output_from_rosbag.py         #
+│   └── show_ply.py                            #
 │
 ├── stl/
-│   ├── Bachelor_Device_Global_Shutter v9.f3z
-│   ├── BatteryMountingBracket.stl
-│   ├── Body+BatteryMountingBracket.stl
-│   ├── Body.stl
-│   └── Front.stl
+│   ├── Bachelor_Device_Global_Shutter v9.f3z  #
+│   ├── BatteryMountingBracket.stl             #
+│   ├── Body+BatteryMountingBracket.stl        #
+│   ├── Body.stl                               #
+│   └── Front.stl                              #
 │
-├── Manuscrip/          # Research documentation
-├── Thesis/             # Academic thesis material
+├── thesis/                                    # Academic thesis material  
 └── README.md
 ```
