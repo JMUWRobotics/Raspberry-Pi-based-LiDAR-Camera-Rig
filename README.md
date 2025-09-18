@@ -60,31 +60,39 @@ Additional sample outputs:
 ## System Architecture
 ```
 Raspberry-Pi-based-LiDAR-Camera-Rig/
-├── device/                                    # Ros2 Workspace on handheld device 
-│   └── src/                                   
-│       ├── bno085                             # IMU
-│       ├── camera_ros                         # Raspberry Pi Camera
-│       ├── FAST-Calib-ROS2                    # extrinsic calibration
-│       ├── libcamera                          # driver for Pi camera
-│       ├── livox_ros2_driver                  # driver Livox Mid-70
-│       └── code_pkg                           # computation of rosbags
-│
-├── tools/                                     # Python scripts for post-processing    
-│   ├── all_sonsors.launch.py                  # ordingre
-│   ├── correct_dataset.py                     #re
-│   ├── densify_depth.py                       #
-│   ├── fuse_scans.py                          #
-│   ├── generate_Fusion_Output.py              #
-│   ├── generate_output_from_rosbag.py         #
-│   └── show_ply.py                            #
-│
-├── stl/
-│   ├── Bachelor_Device_Global_Shutter v9.f3z  #
-│   ├── BatteryMountingBracket.stl             #
-│   ├── Body+BatteryMountingBracket.stl        #
-│   ├── Body.stl                               #
-│   └── Front.stl                              #
-│
-├── thesis/                                    # Academic thesis material  
+├── device/                                         # Ros2 Workspace on handheld device 
+│   ├── src/                                        
+│   │   ├── bno085                                  # IMU
+│   │   ├── camera_ros                              # Raspberry Pi Camera
+│   │   ├── FAST-Calib-ROS2                         # extrinsic calibration
+│   │   ├── libcamera                               # driver for Pi camera
+│   │   ├── livox_ros2_driver                       # driver Livox Mid-70
+│   │   └── code_pkg                                # computation of rosbags
+│   │          ├──       
+│   │          ├──     
+│   │          ├──     
+│   │          └── 
+│   │     
+│   └── recording_scripts/                          # automatic setup and capturing of rosbags
+│       ├──       
+│       ├──     
+│       ├──     
+│       └──     
+│     
+├── tools/                                          # Python scripts for post-processing      
+│   ├── correct_dataset.py                          # change BGR images to RGB images
+│   ├── densify_depth.py                            # bilinear interpolation to fill depth image
+│   ├── fuse_scans.py                               # colored pcl via icp
+│   ├── generate_Fusion_Output.py                   # generate Uni-Fusion Output 
+│   └── show_ply.py                                 # show pointcloud.ply
+│                                         
+├── stl/                                            # stl-files
+│   ├── Bachelor_Device_Global_Shutter v9.f3z       # Fusion file of device
+│   ├── BatteryMountingBracket.stl                  
+│   ├── Body+BatteryMountingBracket.stl             
+│   ├── Body.stl                                    
+│   └── Front.stl                                   
+│     
+├── thesis/                                         # Academic thesis material  
 └── README.md
 ```
