@@ -1,11 +1,9 @@
 # Raspberry Pi–based LiDAR–Camera Rig (Livox MID-70 + Global-Shutter MonoCam)
 
-> Handheld RGB-D scanner for outdoor/indoor scenes — developed as part of my Bachelor’s thesis at the Chair of Robotics (Informatik XVII), Julius-Maximilians-Universität Würzburg.
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
 [![ROS 2](https://img.shields.io/badge/ROS2-jazzy-blue)](#software-stack--dependencies)
 [![Open3D](https://img.shields.io/badge/Open3D-0.19%2B-blueviolet)](#software-stack--dependencies)
-
+> Handheld RGB-D scanner for outdoor/indoor scenes — developed as part of my Bachelor’s thesis at the Chair of Robotics (Informatik XVII), Julius-Maximilians-Universität Würzburg.
 ---
 
 ## TL;DR
@@ -19,15 +17,9 @@ The goal is a robust pipeline from **ROS recording → synchronized pair export 
 
 ## Gallery
 
-> Replace the paths with your actual images (e.g., under `docs/images/`). Keep the names below or adapt them here.
-
 <p align="center">
-  <img src="docs/images/device_front.jpg" alt="Front view" width="48%"/>
-  <img src="docs/images/device_back.jpg"  alt="Back view"  width="48%"/>
-</p>
-<p align="center">
-  <img src="docs/images/device_side.jpg"  alt="Side view"  width="48%"/>
-  <img src="docs/images/in_use.jpg"       alt="Rig in use" width="48%"/>
+  <img src="docs/img_device.jpeg"   width="48%"/>
+  <img src="docs/img_box.jpeg" width="48%"/>
 </p>
 
 Additional sample outputs:
@@ -39,17 +31,17 @@ Additional sample outputs:
 
 ## Features
 
-- 🎯 **Synchronized RGB + LiDAR pairs** from ROS bags (nearest-time matching with configurable tolerance)
-- 🖼️ **RGB-D frames** and **colored point clouds**
-- 🧩 **Depth densification** (optional)
-- 🧱 **ICP** (merge/register multiple scans)
-- 🧪 **Output for Uni-Fusion**-compatible output folder structure (RGB, Depth, metadata)
+- **Synchronized RGB + LiDAR pairs** from ROS bags (nearest-time matching with configurable tolerance)
+- **RGB-D frames** and **colored point clouds**
+- **Depth densification** (optional)
+- **ICP** (merge/register multiple scans)
+- **Output for Uni-Fusion**-compatible output folder structure (RGB, Depth, metadata)
 
 ---
 
 ## Hardware
 
-- **LiDAR:** Livox MID-70 (solid-state)
+- **LiDAR:** Livox MID-70
 - **Camera:** Raspberry Pi Global-Shutter MonoCam and IDS-2M12-C0420, 4 mm, 1/2
 - **Compute:** Raspberry Pi running **Ubuntu 24.04**
 - **IMU:** BNO085, currently **uncalibrated** (not used yet)
@@ -64,3 +56,36 @@ Additional sample outputs:
 - NumPy, OpenCV-Python, Pillow
 - `rclpy`, `rosbag2_py`, `sensor_msgs_py`
 - (optional) Matplotlib for visualization
+
+## System Architecture
+```
+Raspberry-Pi-based-LiDAR-Camera-Rig/
+├── device/                                    # Ros2 Workspace on handheld device 
+│   └── src/                                   
+│       ├── bno085                             # IMU
+│       ├── camera_ros                         # Raspberry Pi Camera
+│       ├── FAST-Calib-ROS2                    # extrinsic calibration
+│       ├── libcamera                          # driver for Pi camera
+│       ├── livox_ros2_driver                  # driver Livox Mid-70
+│       └── code_pkg                           # computation of rosbags
+│
+├── tools/        
+│   ├── all_sonsors.launch.py
+│   ├── correct_dataset.py
+│   ├── densify_depth.py
+│   ├── fuse_scans.py
+│   ├── generate_Fusion_Output.py
+│   ├── generate_output_from_rosbag.py
+│   └── show_ply.py
+│
+├── stl/
+│   ├── Bachelor_Device_Global_Shutter v9.f3z
+│   ├── BatteryMountingBracket.stl
+│   ├── Body+BatteryMountingBracket.stl
+│   ├── Body.stl
+│   └── Front.stl
+│
+├── Manuscrip/          # Research documentation
+├── Thesis/             # Academic thesis material
+└── README.md
+```
