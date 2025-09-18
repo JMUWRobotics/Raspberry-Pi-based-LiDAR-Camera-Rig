@@ -1,0 +1,26 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}State of the Art}{5}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Theoretical Background}{7}{chapter.3}%
+\contentsline {section}{\numberline {3.1}LiDAR Scanning}{7}{section.3.1}%
+\contentsline {section}{\numberline {3.2}PLA -- polylactic acid}{8}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Intrinsic Camera Calibration}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Extrinsic Calibration of LiDAR and Camera}{9}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Synchronize timestamps}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Projection from LiDAR to Image space}{13}{section.3.6}%
+\contentsline {section}{\numberline {3.7}ICP -- Iterative Closest Point}{15}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Hardware and Design}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Design}{17}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Components}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Purchase costs}{20}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Software}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Setup}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Uni-Fusion: Universal continuous mapping}{21}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Approach}{25}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Experiments and results}{31}{chapter.7}%
+\contentsline {section}{\numberline {7.1}RGB-D}{31}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Experiment 1}{31}{subsection.7.1.1}%
+\contentsline {subsection}{\numberline {7.1.2}Experiment 2}{32}{subsection.7.1.2}%
+\contentsline {section}{\numberline {7.2}Uni--Fusion}{33}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Conclusion and future work}{35}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Drawings handheld Device}{37}{appendix.A}%

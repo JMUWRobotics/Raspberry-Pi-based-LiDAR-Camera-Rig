@@ -1,0 +1,149 @@
+\begin{thebibliography}{10}
+
+\bibitem{AdafruitBNO085}
+Adafruit.
+\newblock Adafruit 9-dof orientation imu fusion breakout - bno085, 2020.
+\newblock Accessed: 02. September 2025.
+
+\bibitem{behari2025blurred}
+Nikhil Behari, Aaron Young, Siddharth Somasundaram, Tzofi Klinghoffer, Akshat
+  Dave, and Ramesh Raskar.
+\newblock Blurred lidar for sharper 3d: Robust handheld 3d scanning with
+  diffuse {LiDAR} and {RGB}.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pages 26954--26964, 2025.
+\newblock CVPR Open Access version.
+
+\bibitem{beltran2022automatic}
+Jorge Beltr{\'a}n, Carlos Guindel, Arturo De~La~Escalera, and Fernando
+  Garc{\'\i}a.
+\newblock Automatic extrinsic calibration method for lidar and camera sensor
+  setups.
+\newblock {\em IEEE Transactions on Intelligent Transportation Systems},
+  23(10):17677--17689, 2022.
+
+\bibitem{michaelbleier_slides}
+Michael Bleier.
+\newblock Advanced sensory systems and sensor data processing -- lidar und
+  terrain modeling.
+\newblock Unpublished lecture slides, University of Würzburg, summer semester
+  2025. Not publicly accessible., 2025.
+
+\bibitem{bleier2024}
+Michael Bleier, Yufan Yuan, and Andreas N{\"u}chter.
+\newblock A handheld stereo vision and lidar system for outdoor dense rgb-d
+  mapping using depth map completion based on learned priors.
+\newblock In {\em The International Archives of the Photogrammetry, Remote
+  Sensing and Spatial Information Sciences}, volume XLVIII-2/W8, pages 31--36.
+  Copernicus GmbH, 2024.
+
+\bibitem{dexheimer2023learning}
+Eric Dexheimer and Andrew~J Davison.
+\newblock Learning a depth covariance function.
+\newblock In {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition}, pages 13122--13131, 2023.
+
+\bibitem{eidson2002ieee}
+John~C Eidson, Mike Fischer, and Joe White.
+\newblock Ieee-1588™ standard for a precision clock synchronization protocol
+  for networked measurement and control systems.
+\newblock In {\em Proceedings of the 34th annual precise time and time interval
+  systems and applications meeting}, pages 243--254, 2002.
+
+\bibitem{Fusiello2024}
+Andrea Fusiello.
+\newblock {\em Computer Vision: Three-dimensional Reconstruction Techniques}.
+\newblock Springer Cham, 2024.
+
+\bibitem{hpePTP}
+{Hewlett Packard Enterprise}.
+\newblock What is precision time protocol (ptp), 2023.
+\newblock Accessed: 14. August 2025.
+
+\bibitem{lin2024lidarmirror}
+Tsung-Han Lin, Connor Henley, Siddharth Somasundaram, Akshat Dave, Moshe
+  Laifenfeld, and Ramesh Raskar.
+\newblock Handheld mapping of specular surfaces using consumer-grade flash
+  lidar.
+\newblock In {\em {2024 IEEE International Conference on Computational
+  Photography (ICCP)}}. IEEE, 2024.
+
+\bibitem{material4print2024pla}
+{Material4Print}.
+\newblock Informationen zum pla filament (polylactide), 2024.
+\newblock Accessed: 26. August 2025.
+
+\bibitem{mishra2020extrinsic}
+Subodh Mishra, Gaurav Pandey, and Srikanth Saripalli.
+\newblock Extrinsic calibration of a 3d-lidar and a camera.
+\newblock In {\em 2020 IEEE International Conference on Robotics and Automation
+  (ICRA)}, pages 5553--5559. IEEE, 2020.
+
+\bibitem{3dpclecture}
+Andreas N{\"u}chter.
+\newblock 3d point cloud processing -- introduction to 3d point cloud
+  processing.
+\newblock Unpublished lecture slides, University of Würzburg, winter semester
+  2024/25. Not publicly accessible., 2024.
+
+\bibitem{ramezani2019newer}
+Milad Ramezani et~al.
+\newblock The newer college dataset: Handheld {LiDAR}, inertial, and vision
+  with ground truth.
+\newblock In {\em Proceedings of the International Conference on Robotics,
+  Automation and Systems}, 2019.
+\newblock Provides centimeter-accurate 6-DoF ground truth for handheld
+  LiDAR--vision benchmarking.
+
+\bibitem{CameraROS}
+Christian Rauch.
+\newblock camera\_ros, 2025.
+\newblock Accessed: 28. August 2025.
+
+\bibitem{ros2_jazzy_releases}
+Open Robotics.
+\newblock Ros 2 documentation: Jazzy, 2024.
+\newblock ROS~2 Jazzy distribution releases page.
+
+\bibitem{FASTCalibROS2}
+Maro Salah.
+\newblock Fast-calib-ros2, 2025.
+\newblock Accessed: 28. August 2025.
+
+\bibitem{BNO085ROS2Node}
+Robert Stevenson.
+\newblock Bno085-ros2-node, 2025.
+\newblock Accessed: 28. August 2025.
+
+\bibitem{LivoxROS2Driver}
+Livox~SDK Team.
+\newblock livox\_ros2\_driver, 2025.
+\newblock Accessed: 28. August 2025.
+
+\bibitem{github_handheld}
+Jakob Wehr.
+\newblock Rasberrypi-based lidar-camera rig, 2025.
+\newblock Accessed: 2025-09-16.
+
+\bibitem{wikipediaPTP}
+{Wikipedia contributors}.
+\newblock Precision time protocol, 2025.
+\newblock Accessed: 14. August 2025.
+
+\bibitem{review2024lidarcamera}
+Guo Yu, Lin Yan, Zhang Tao, et~al.
+\newblock A review of deep learning-based lidar and camera extrinsic
+  calibration.
+\newblock {\em Sensors}, 24(12):3878, 2024.
+
+\bibitem{yuan2024uni}
+Yijun Yuan and Andreas Nuechter.
+\newblock Uni-fusion: Universal continuous mapping.
+\newblock {\em IEEE Transactions on Robotics}, 40:1373--1392, 2024.
+
+\bibitem{Zhang2016}
+Zhengyou Zhang.
+\newblock Iterative closest point (icp).
+\newblock {\em Springer Reference Work}, 2016.
+
+\end{thebibliography}
